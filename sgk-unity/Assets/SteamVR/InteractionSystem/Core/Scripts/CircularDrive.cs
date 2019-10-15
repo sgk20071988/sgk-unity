@@ -146,7 +146,7 @@ namespace Valve.VR.InteractionSystem
 				linearMapping = gameObject.AddComponent<LinearMapping>();
 			}
 
-			worldPlaneNormal = new Vector3( 0.0f, 0.0f, 0.0f );
+			worldPlaneNormal = new Vector3( 0.0f, 1.0f, 0.0f );
 			worldPlaneNormal[(int)axisOfRotation] = 1.0f;
 
 			localPlaneNormal = worldPlaneNormal;
